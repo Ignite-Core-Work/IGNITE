@@ -5,6 +5,7 @@ import Navbar from '../../components/Navbar/Navbar'
 const Home = () => {
   return (
     <div className='for-Home-page'>
+
         <Navbar/>
 
         <div className='for-home-middle-section'>
@@ -13,9 +14,12 @@ const Home = () => {
                 <span className='for-normal-text'>the gap inspiring the </span> 
                 <span className='for-highlight-text'>feature</span>
             </h3>
+            <p className='for-home-middle-para'>
+                Foster the innovation and collaboration ignite,where students and alumni collaborate
+            </p>
         </div>
     </div>
   )
 }
 
-export default Home
+export default Home;

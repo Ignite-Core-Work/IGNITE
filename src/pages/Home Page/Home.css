@@ -1,5 +1,5 @@
 .for-Home-page{
-    display: flex;
+    display: grid;
     flex-direction: column;
     min-height: 100vh;
     background: linear-gradient(235deg, #B63D49 -0.81%, rgba(52, 30, 37, 0.97) 57.27%, rgba(15, 22, 27, 0.96) 90.12%), #FFF;
@@ -16,19 +16,22 @@
 
 .for-home-middle-section{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
 }
 
 .for-highlight-text{
     color: #F57359;
-text-align: center;
-font-family: Poppins;
-font-size: 5rem;
-font-style: normal;
-font-weight: 800;
-line-height: 150%; /* 120px */
-letter-spacing: 3.2px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 120px */
+    letter-spacing: 3.2px;
 }
 
 .for-normal-text{
@@ -39,4 +42,14 @@ font-style: normal;
 font-weight: 800;
 line-height: 150%;
 letter-spacing: 3.2px;
+}
+
+.for-home-middle-para{
+    color: #CDB5B5;
+text-align: center;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
