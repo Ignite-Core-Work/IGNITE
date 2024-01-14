@@ -27,13 +27,10 @@ const Home = () => {
         </div>
             </div>
             <div className='for-home-middle-second'>
-              <img src={group } className='for-group-image' />
-              
+              <img src={group } className='for-group-image' />              
             </div>
                     
-        </div>
-
-        
+        </div>        
 
     </div>
   )
