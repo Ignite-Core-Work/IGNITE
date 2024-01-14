@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import './Navbar.css'; // Create a separate CSS file for styling
+import { FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -21,11 +22,19 @@ const Navbar = () => {
         <a href="#contact">Contact</a>
       </div>
 
-      {/* Display only on large screens */}
-      <div className={`login-buttons ${isMobile ? 'hidden' : ''}`}>
-        <button className="login-button">Login</button>
-        <button className="signup-button">Register</button>
+      {/* Social Media Links - Visible only on large screens */}
+      <div className={`social-media ${isMobile ? 'hidden' : ''}`}>
+        <a href="#" target="_blank">
+          <FaTwitter className="social-icon" />
+        </a>
+        <a href="https://www.instagram.com/ignite_svuce/?hl=en" target="_blank">
+          <FaInstagram className="social-icon" />
+        </a>
+        <a href="https://www.linkedin.com/company/ignite-svuce/" target="_blank">
+          <FaLinkedin className="social-icon" />
+        </a>
       </div>
+
 
       <div className="toggle-button" onClick={handleToggle}>
         &#9776;

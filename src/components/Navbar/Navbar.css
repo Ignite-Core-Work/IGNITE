@@ -6,10 +6,10 @@
     align-items: center;
     padding: 1rem;
     color: white;
-    top: 0;
+    top: 1rem;
     right: 0;
-    left: 0;
-    width: 95%;
+    left: 2rem;
+    width: 90%;
     position: fixed;
   }
   
@@ -27,6 +27,7 @@
     text-decoration: none;
     padding: 0.5rem;
     margin: 0 1rem;
+    font-size: 1.3rem;
   }
   
   .toggle-button {
@@ -39,7 +40,7 @@
     display: flex;
     align-items: center;
   }
-  
+/*   
   .login-button,
   .signup-button {
     margin-left: 1rem;
@@ -51,7 +52,7 @@
     color: white;
     border-radius: 2px;
     
-  }
+  } */
   
   /* Media query for small screens */
   @media (max-width: 768px) {
@@ -81,3 +82,20 @@
     }
   }
   
+
+  .navbar a {
+    color: white;
+    margin: 1rem;
+  }
+  
+  /* Adjust the size of social media icons for better visibility */
+  .social-media .social-icon {
+    font-size: 1.5rem;
+  }
+  
+  /* Hide social media icons on small screens */
+  @media screen and (max-width: 768px) {
+    .social-media {
+      display: none;
+    }
+  }
