@@ -1,0 +1,42 @@
+.for-Home-page{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(235deg, #B63D49 -0.81%, rgba(52, 30, 37, 0.97) 57.27%, rgba(15, 22, 27, 0.96) 90.12%), #FFF;
+}
+
+.for-home-middle{
+    justify-self: center;
+    align-self: center;
+    width: 1rem;
+}
+
+
+/* For middle section  */
+
+.for-home-middle-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.for-highlight-text{
+    color: #F57359;
+text-align: center;
+font-family: Poppins;
+font-size: 5rem;
+font-style: normal;
+font-weight: 800;
+line-height: 150%; /* 120px */
+letter-spacing: 3.2px;
+}
+
+.for-normal-text{
+    color: #FFF;
+font-family: Poppins;
+font-size: 5rem;
+font-style: normal;
+font-weight: 800;
+line-height: 150%;
+letter-spacing: 3.2px;
+}
