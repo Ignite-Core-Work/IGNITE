@@ -10,6 +10,8 @@ import saipavan from "../../assets/saipavan.jpg";
 import saivivek from "../../assets/saivivek.jpg";
 import sreenadh from "../../assets/sreenadh.jpg";
 import anil from '../../assets/anil.jpg';
+import Navbar from "../../components/Navbar/Navbar";
+import Bar from "../../components/Bar/Bar";
     
 
 const Crew = () => {   
@@ -30,6 +32,8 @@ const Crew = () => {
 
   return (
     <>
+    <Navbar/>
+    <Bar/>
     <div className='for-whole-Team-page'>
       <h1 className="for-heading-in-team">The Crew</h1>
       <div className="blockContainer" >

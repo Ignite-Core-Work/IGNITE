@@ -1,7 +1,6 @@
-// Navbar.js
-
 import React, { useState } from 'react';
-import './Navbar.css'; // Create a separate CSS file for styling
+import './Navbar.css';
+import { NavLink } from 'react-router-dom';
 import { FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Navbar = () => {
@@ -16,11 +15,12 @@ const Navbar = () => {
       <div className="logo">IGNITE</div>
 
       <div className={`menu ${isMobile ? 'active' : ''}`}>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#team">Team</a>
-        <a href="#contact">Contact</a>
+        <NavLink to='/home' activeClassName="active-link">Home</NavLink>
+        <NavLink to='/crew' activeClassName="active-link">Team</NavLink>
+        <NavLink to='/about' activeClassName="active-link">About</NavLink>
+        <NavLink to='/contact' activeClassName="active-link">Contact</NavLink>
       </div>
+
 
       {/* Social Media Links - Visible only on large screens */}
       <div className={`social-media ${isMobile ? 'hidden' : ''}`}>

@@ -4,9 +4,13 @@ import globe from '../../assets/globe.png'
 import Navbar from '../../components/Navbar/Navbar'
 import group from '../../assets/Group.png';
 import ass1 from '../../assets/Team goals-pana.png'
+import Bar from '../../components/Bar/Bar';
 
 const Home = () => {
   return (
+    <>
+    <Navbar />
+    <Bar/>
     <div className='for-Home-page'>
         <div className='for-home-middle-section'>
           <div className='for-home-middle-first'>
@@ -27,9 +31,9 @@ const Home = () => {
               <img src={group } className='for-group-image' />              
             </div>
                     
-        </div>https://github.com/AvukuPragatheswari/portifolio        
-
+        </div>
     </div>
+    </>
   )
 }
 

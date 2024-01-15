@@ -1,83 +1,103 @@
+/* Navbar.css */
+
 .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  color: white;
+  right: 0;
+  left: 2rem;
+  width: 95%;
+  position: relative;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  margin: 0 1rem;
+  font-size: 1.3rem;
+}
+
+.menu a.active-link {
+  color: #531212 !important;
+}
+
+.active-link{
+  color: #531212 !important; 
+}
+
+.toggle-button {
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.login-buttons {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    opacity: 1;
+    background-color: black;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+
+  .menu.active {
+    display: flex;
+  }
+
+  .toggle-button {
+    display: block;
+  }
+
+  .login-buttons {
+    display: none;
+  }
+
+  .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    margin: 20px;
     color: white;
-    top: 1rem;
     right: 0;
-    left: 2rem;
-    width: 90%;
+    left: 0;
+    width: 92%;
     position: relative;
   }
-  
-  .logo {
-    font-size: 1.5rem;
-  }
-  
-  .menu {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .menu a {
-    color: white;
-    text-decoration: none;
-    padding: 0.5rem;
-    margin: 0 1rem;
-    font-size: 1.3rem;
-  }
-  
-  .toggle-button {
-    font-size: 1.5rem;
-    cursor: pointer;
+}
+
+.navbar a {
+  color: white;
+  margin: 1rem;
+}
+
+.social-media .social-icon {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .social-media {
     display: none;
   }
-  
-  .login-buttons {
-    display: flex;
-    align-items: center;
-  }
-
-  @media (max-width: 768px) {
-    .menu {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      opacity: 1;
-      background-color: black;
-      top: 70px;
-      left: 0;
-      width: 100%;
-      text-align: center;
-      color: white;
-    }
-  
-    .menu.active {
-      display: flex;
-    }
-  
-    .toggle-button {
-      display: block;
-    }
-  
-    .login-buttons {
-      display: none;
-    }
-  }
-  
-
-  .navbar a {
-    color: white;
-    margin: 1rem;
-  }
-  
-  .social-media .social-icon {
-    font-size: 1.5rem;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .social-media {
-      display: none;
-    }
-  }
+}

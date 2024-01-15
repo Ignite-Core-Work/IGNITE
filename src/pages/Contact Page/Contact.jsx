@@ -1,10 +1,15 @@
 import React from 'react'
 import './Contact.css'
 import { FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import Navbar from '../../components/Navbar/Navbar';
+import Bar from '../../components/Bar/Bar';
 
 
 const Contact = () => {
   return (
+    <>
+    <Navbar/>
+    <Bar/>
     <div className='Contact-page'>
         <h1 className='for-contact-page-heading'>Engage with the club</h1>
         <p className='for-contact-page-paragraph'>We're here to support you! Feel free to reach out for any questions or clarification you need.</p>
@@ -70,6 +75,7 @@ const Contact = () => {
             </form>
         </div>
     </div>
+    </>
   )
 }
 
