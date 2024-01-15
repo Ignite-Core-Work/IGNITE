@@ -8,9 +8,6 @@ import ass1 from '../../assets/Team goals-pana.png'
 const Home = () => {
   return (
     <div className='for-Home-page'>
-
-        <Navbar/>
-
         <div className='for-home-middle-section'>
           <div className='for-home-middle-first'>
             <h3>
@@ -30,7 +27,7 @@ const Home = () => {
               <img src={group } className='for-group-image' />              
             </div>
                     
-        </div>        
+        </div>https://github.com/AvukuPragatheswari/portifolio        
 
     </div>
   )
