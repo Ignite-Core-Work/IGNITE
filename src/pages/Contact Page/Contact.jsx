@@ -8,9 +8,10 @@ import Bar from '../../components/Bar/Bar';
 const Contact = () => {
   return (
     <>
+    
+    <div className='Contact-page'>
     <Navbar/>
     <Bar/>
-    <div className='Contact-page'>
         <h1 className='for-contact-page-heading'>Engage with the club</h1>
         <p className='for-contact-page-paragraph'>We're here to support you! Feel free to reach out for any questions or clarification you need.</p>
         <div className='for-contact-page-form'>
