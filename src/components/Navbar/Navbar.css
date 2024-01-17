@@ -2,40 +2,64 @@
 
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  justify-content: center;
   color: white;
+  gap: 450px;
+  font-family: 'Poppins', sans-serif;
+
+  /* justify-content: space-between;
+  padding: 5px;
   right: 0;
   left: 2rem;
   width: 95%;
-  position: relative;
+  position: relative; */
 }
-
 .logo {
   font-size: 1.5rem;
 }
-
-.menu {
+/* .menu {
   display: flex;
   flex-direction: row;
+} */
+
+.nav {
+  width: 380px;
+  display: flex;
+  height: 40px;
+  padding-top: 10px;
+  backdrop-filter: blur(1px) saturate(146%);
+  -webkit-backdrop-filter: blur(1px) saturate(146%);
+  background-color: rgba(255, 255, 255, 0.58);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.nav-active-links {
+  list-style: none;
+}
+.nav-active-links::hover {
+  color: #531212;
+  transition: 500ms;
 }
 
 .menu a {
   color: white;
   text-decoration: none;
-  padding: 0.5rem;
-  margin: 0 1rem;
-  font-size: 1.3rem;
+  /* padding: 0.5rem;
+  margin: 0 1rem; */
+  font-size: 1.1rem;
 }
 
-.menu a.active-link {
-  color: #531212 !important;
+/* .menu a.active-link {
+  color: #531212;
 }
 
-.active-link{
-  color: #531212 !important; 
-}
+ */
+
+/* .active-link:hover {
+  color: #531212;
+} */
 
 .toggle-button {
   font-size: 1.5rem;
@@ -79,7 +103,6 @@
     justify-content: space-between;
     align-items: center;
     margin: 20px;
-    color: white;
     right: 0;
     left: 0;
     width: 92%;

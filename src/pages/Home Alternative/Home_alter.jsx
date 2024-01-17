@@ -4,7 +4,6 @@ import globe from '../../assets/globe.png'
 import Navbar from '../../components/Navbar/Navbar'
 import group from '../../assets/Group.png';
 import ass1 from '../../assets/Team goals-pana.png'
-import Bar from '../../components/Bar/Bar';
 import { FaInstagram,FaTwitter,FaLinkedin } from 'react-icons/fa';
 
 const Homealt = () => {
@@ -12,13 +11,12 @@ const Homealt = () => {
     <>
     <div className='for-Home-page1'>
       <Navbar/>
-      <Bar/>
              <div className='for-home-middle-section1'>
           <div className='for-home-middle-first1'>
-            <h3>
+            <h3 className='hero-text'>
                 <span className='for-highlight-text1'>Bridging </span>
                 <span className='for-normal-text1'>the gap inspiring the </span> 
-                <span className='for-highlight-text1'>feature</span>
+                <span className='for-highlight-text1'> feature</span>
             </h3>
             <p className='for-home-middle-para1'>
                 Foster the innovation and collaboration ignite,where students and alumni collaborate

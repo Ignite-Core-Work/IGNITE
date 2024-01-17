@@ -1,128 +1,131 @@
-.for-Home-page1{
-    display: grid;
-    flex-direction: column;
-    min-height: 88vh;
-background: linear-gradient(180deg, #531212 0%, rgba(18, 53, 83, 0.00) 100%);  
+
+.for-Home-page1 {
+  display: grid;
+
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #531212 0%, rgba(18, 53, 83, 0) 100%);
 }
 
-.for-home-middle1{
-    justify-self: center;
-    align-self: center;
-    width: 1rem;
+.for-home-middle1 {
+  justify-self: center;
+  align-self: center;
+  font-family: 'Poppins', sans-serif;
+  width: 1rem;
 }
-
 
 /* For middle section  */
 
-.for-home-middle-section1{
-    margin-top: 4rem;
-    display: flex;
-    justify-self: center;
-    align-self: center;
-    flex-direction: column;
-    text-align: center;
-    width: 80%;
+.for-home-middle-section1 {
+  margin-top: 4rem;
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  justify-self: center;
+  align-self: center;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
 }
 
-.for-highlight-text1{
-    color: #F57359;
-text-align: center;
-font-family: Poppins;
-font-size: 4.5rem;
-font-style: normal;
-font-weight: 800;
-letter-spacing: 3.6px;
+.for-highlight-text1 {
+  color: #f57359;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  letter-spacing: 3.6px;
 }
 
-.for-home-middle-second1{
-    display: none;
+.for-home-middle-second1
+ {
+    font-family: 'Poppins', sans-serif;
+  display: none;
 }
 
-.for-normal-text1{
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 4.5rem;
-    font-style: normal;
-    font-weight: 800;
-    letter-spacing: 3.6px;
+.hero-text{
+    width: 900px;
+}
+.for-normal-text1 {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 3.6px;
 }
 
-.for-home-middle-para1{
-    color: #CDB5B5;
-text-align: center;
-font-family: Poppins;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+.for-home-middle-para1 {
+  color: #cdb5b5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
-
-.for-home-button-section1{
-    margin-top: -1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5rem;
+.for-home-button-section1 {
+  margin-top: -1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
 }
 
 .login-button1,
-  .signup-button1 {
-    margin-left: 1rem;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    border: 0.2px solid rgb(196, 184, 184);
-    cursor: pointer;
-    background: inherit;
-    color: white;
-    border-radius: 5px;
-    width: 130px;
-    height: 40px;
-  }
+.signup-button1 {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 0.2px solid rgb(196, 184, 184);
+  cursor: pointer;
+  background: inherit;
+  color: white;
+  border-radius: 5px;
+  width: 130px;
+  height: 40px;
+}
 
 .login-button1:hover,
-.signup-button1:hover{
-    color: rgb(65, 11, 0);
-    font-weight: bold;
-    background-color: #FFF;
+.signup-button1:hover {
+  color: rgb(65, 11, 0);
+  font-weight: bold;
+  background-color: #fff;
 }
 
+.for-contact-page-bottom-col1 {
+  display: flex;
+  justify-content: start;
+  margin-left: 100px;
+  gap: 20px;
+}
 
-.for-contact-page-bottom-col1{
+@media (min-width: 886px) {
+  .for-home-middle-section1 {
+    margin-top: 4rem;
     display: flex;
-    justify-content: start;
-    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    width: 90%;
+  }
+
+  .for-home-middle-second1 {
+    display: block;
+    width: 40%;
+    margin-left: 2rem;
+  }
+
+  .for-group-image1 {
+    height: 350px;
+  }
+  .for-contact-page-bottom-col1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
     gap: 20px;
-}
-
-@media (min-width:886px){
-    
-
-    .for-home-middle-section1{
-        margin-top: 4rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        text-align: center;
-        width: 90%;
-    }
-    
-    .for-home-middle-second1{
-        display: block;
-        width: 40%;
-        margin-left: 2rem;
-        
-    }
-
-    .for-group-image1{
-        height: 350px;
-    }
-    .for-contact-page-bottom-col1{
-        display: flex;
-        justify-content: center;
-        margin-top: 10px;
-        gap: 20px;
-    }
-    
+  }
 }

@@ -1,164 +1,162 @@
-.Contact-page{
-    height: 100vh;
-    background: linear-gradient(180deg, #531212 0.36%, #000 99.67%);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-items: center;
+.Contact-page {
+    padding-top:15px ;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-items: center;
+  font-family: "Poppins", sans-serif;
 }
 
-.for-contact-page-heading{
-    color: #FFF;
-    font-family: Sarala;
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.for-contact-page-heading {
+  color: #fff;
+  font-family: "sarala", sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
 }
 
-.for-contact-page-paragraph{
-    margin-top: -1rem;
-    width: 97%;
-    color: rgba(165, 175, 183, 0.92);
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.for-contact-page-paragraph {
+  margin-top: -1rem;
+  width: 97%;
+  color: rgba(165, 175, 183, 0.92);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-.for-contact-page-form{
-    width: 90%;
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.77);
-    background: rgba(0, 0, 0, 0.19);
-    backdrop-filter: blur(0.30000001192092896px);
+.for-contact-page-form {
+  width: 80%;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.77);
+  background: rgba(0, 0, 0, 0.19);
+  backdrop-filter: blur(0.30000001192092896px);
 }
 
-.for-contact-page-form-row{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.for-contact-page-form-row {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.for-contact-page-form-row-col{
-    display: flex;
-    flex-direction: column;
-    margin: 1rem;
-    width: 500px;
+.for-contact-page-form-row-col {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  width: 500px;
 }
 
-.for-contact-page-form-col-label{
-    color: #FFF;
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
+.for-contact-page-form-col-label {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  /* font-style: normal;
 font-weight: 600;
-line-height: normal;
-margin-bottom: 10px;
+line-height: normal; */
+  margin-bottom: 10px;
 }
 
-.for-contact-page-form-col-input{
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-background-color: inherit;
-color: rgba(255, 255, 255, 0.60);
-border: none;
-border-bottom: 2px solid rgba(165, 175, 183, 0.92);
+.for-contact-page-form-col-input {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background-color: inherit;
+  color: rgba(255, 255, 255, 0.6);
+  border: none;
+  border-bottom: 2px solid rgba(165, 175, 183, 0.92);
 }
 
-.for-contact-page-form-col-input::placeholder{
-    color: rgba(255, 255, 255, 0.60);
+.for-contact-page-form-col-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .for-contact-page-form-col-input:focus {
-    border: none;
-    outline: none; 
-  }
-
-.for-contact-page-form-col-input.for-contact-page-form-col-input:onselect{
-    border: none;
+  border: none;
+  outline: none;
 }
 
+.for-contact-page-form-col-input.for-contact-page-form-col-input:onselect {
+  border: none;
+}
 
-.for-contact-page-form-col-input-textarea{
-    
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-background-color: inherit;
-color: rgba(255, 255, 255, 0.60);
-border: 2px solid rgba(165, 175, 183, 0.92);
+.for-contact-page-form-col-input-textarea {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background-color: inherit;
+  color: rgba(255, 255, 255, 0.6);
+  border: 2px solid rgba(165, 175, 183, 0.92);
 }
 
 .for-contact-page-form-col-input-textarea:focus {
-    border: 2px solid rgba(255, 255, 255, 0.60);    
-    outline: none; 
-  }
-
-.for-contact-page-form-button-container{
-    display: flex;
-    justify-content: center;
-    padding: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  outline: none;
 }
 
-.for-contact-page-button{
-    background-color: #531212;
-    width: 150px;
-height: 50px;
-border: none;
-font-size: medium;
-color: #FFF;
-border-radius: 5px;
-
+.for-contact-page-form-button-container {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
 }
 
-.for-contact-page-form-bottom-card{
-    margin: 15px;
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.60);
-    background: rgba(0, 0, 0, 0.40);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+.for-contact-page-button {
+  background-color: #531212;
+  width: 150px;
+  height: 40px;
+  border: none;
+  font-size: medium;
+  color: #fff;
+  border-radius: 5px;
 }
 
-.for-contact-page-bottom-col{
-    justify-content: center;
-    text-align: center;
+.for-contact-page-form-bottom-card {
+  margin: 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.for-contact-page-bottom-col-head{
-    color: #FFF;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+.for-contact-page-bottom-col {
+  justify-content: center;
+  text-align: center;
 }
 
-.for-contact-page-bottom-col-para{
-    color: rgba(255, 255, 255, 0.60);
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-margin-top: -14px;
+.for-contact-page-bottom-col-head {
+  color: #fff;
+  font-family: 'Inter',sans-serif;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 600;
 }
 
-a{
-    color: white;
+.for-contact-page-bottom-col-para {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  /* font-style: normal; */
+  /* font-weight: 600; */
+  /* line-height: normal; */
+  /* margin-top: -14px; */
+  line-height: 10px;
 }
-.links{
-    width: 100px;
-    display: flex;
-    justify-content: space-around;
+
+a {
+  color: white;
+}
+.links {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
 }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { NavLink } from 'react-router-dom';
-import { FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+// import { FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -15,16 +15,28 @@ const Navbar = () => {
       <div className="logo">IGNITE</div>
 
       <div className={`menu ${isMobile ? 'active' : ''}`}>
-        <NavLink to='/home' activeClassName="active-link">Home</NavLink>
+        <ul className="nav">
+          <li className="nav-active-links">
+        <NavLink to='/' activeClassName="active-link" >Home</NavLink>
+
+          </li>
+          <li className="nav-active-links">
         <NavLink to='/crew' activeClassName="active-link">Team</NavLink>
+
+          </li>
+          <li className="nav-active-links">
         <NavLink to='/about' activeClassName="active-link">About</NavLink>
+          </li>
+          <li className="nav-active-links">
         <NavLink to='/contact' activeClassName="active-link">Contact</NavLink>
+
+          </li>
+        </ul>
       </div>
 
 
-      {/* Social Media Links - Visible only on large screens */}
       <div className={`social-media ${isMobile ? 'hidden' : ''}`}>
-        <a href="#" target="_blank">
+        {/* <a href="#" target="_blank">
           <FaTwitter className="social-icon" />
         </a>
         <a href="https://www.instagram.com/ignite_svuce/?hl=en" target="_blank">
@@ -32,7 +44,7 @@ const Navbar = () => {
         </a>
         <a href="https://www.linkedin.com/company/ignite-svuce/" target="_blank">
           <FaLinkedin className="social-icon" />
-        </a>
+        </a> */}
       </div>
 
 
