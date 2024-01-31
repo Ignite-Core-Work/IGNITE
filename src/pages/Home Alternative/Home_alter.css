@@ -4,7 +4,6 @@
 
   flex-direction: column;
   font-family: "Poppins", sans-serif;
-  min-height: 100vh;
   background: linear-gradient(180deg, #531212 0%, rgba(18, 53, 83, 0) 100%);
 }
 

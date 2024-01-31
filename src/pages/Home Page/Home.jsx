@@ -1,9 +1,6 @@
 import React from 'react'
 import './Home.css'
-import globe from '../../assets/globe.png'
 import Navbar from '../../components/Navbar/Navbar'
-import group from '../../assets/Group.png';
-import ass1 from '../../assets/Team goals-pana.png'
 import Bar from '../../components/Bar/Bar';
 
 const Home = () => {
@@ -28,7 +25,7 @@ const Home = () => {
         </div>
             </div>
             <div className='for-home-middle-second'>
-              <img src={group } className='for-group-image' />              
+              <img src={require('../../assets/globe.png')} alt='' className='for-group-image' />              
             </div>
                     
         </div>

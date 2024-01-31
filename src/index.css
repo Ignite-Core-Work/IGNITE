@@ -9,7 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
-  min-height: 100vh;
+  min-height: 150vh;
   background-repeat:no-repeat ;
   background: linear-gradient(180deg, #531212 0.36%, #000 99.67%);
   overflow-x: hidden;

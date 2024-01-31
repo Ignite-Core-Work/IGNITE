@@ -1,0 +1,55 @@
+/* Activities.css */
+
+.for-activities {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+  gap: 90px;
+  flex-wrap: wrap;
+}
+
+.ac {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.activity-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
+  border: 3px solid #a50d0d;
+  background-color: black;
+  color: black;
+  height: 25rem;
+  border-radius: 2em;
+  margin: 1rem;
+}
+
+.activity-image {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 8px;
+}
+
+.activity-content {
+  margin-top: 10px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  width: 15rem;
+  font-size: 0.5rem;
+}
+
+.activity-title {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.activity-description {
+  margin-top: 5px;
+  font-size: 1.4em;
+}
